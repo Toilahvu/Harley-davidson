@@ -21,14 +21,20 @@
   font-size: 32px;
   font-weight: bold;
   padding: 0 0 16px;
-  margin-left: 47px;
+  margin-left: 75px;
 }
 
 .hero_card {
   width: 24px;
   height: 10px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   border-top: 3px solid #fa6600;
+}
+
+.card_deck_all{
+  display: flex;
+  justify-content: center;
 }
 
 .card_deck {
@@ -81,7 +87,7 @@
 
 .card_deck_all {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .row_contentimage{
@@ -94,7 +100,8 @@
 
 .media_card{
     height: 373.22px;
-    display: flex
+    display: flex;
+    justify-content: center;
 }
 
 .row_contentimage .header{

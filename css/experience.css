@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.hero_container_background{
+    background-color: black;
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero_content_text{
+    margin-left: 77px;
+}
+
+.hero_title{
+    color: white;
+    font-size: 42px;
+}
+
+.hero_background img {
+    width: 100%;
+    height: 364.79px;
+    display: flex;
+}
+
+.cmp_margin_top {
+    height: 32px;
+}
+
+.cmp_margin_bottom {
+    height: 32px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.top_link_container{
+    margin: 10px 0;
+    padding: 0 20px;
+    border-right: 1px solid black;
+}
+
+.top_link{
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.top_link:hover{
+    color: orangered;
+}
+
+.hero_card{
+    background-color: #eeeceb;
+}
+.card_deck_all{
+    display: flex;
+    justify-content: center;
+}
+
+.card_deck {
+    width: 570px;
+    height: auto;
+}
+
+.card_deck img {
+    width: 540px;
+    height: 404.58px;
+    margin-left: 15px;
+    padding-bottom: 16px;
+}
+
+.hero_card_title a{
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.hero_card_deccription{
+    margin: 0 15px;
+    margin-right: 30px;
+    padding: 8px 0 0;
+    font-size: 16px;
+}
+
+.card_footer {
+    margin-left: 15px;
+    height: 72px;
+    width: 350px;
+}
+  
+  .card_footer span {
+    width: 162.39px;
+    height: 48px;
+    color: white;
+    background-color: #fa6600;
+    padding: 12px 32px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card_body{
+    height: 121px;
+}
+
+.media_card{
+    background-color: black;
+    display: flex;
+    height: 390px;
+}
+
+.row_contentimage{
+    width: 432.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 16px
+}
+
+.row_contentimage .header{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.media_card img{
+    width: 799px;   
+}
+
+.description{
+    margin: 8px 0 0;
+    color: white;
+}
+
+.row_contentimage .card_footer{
+    margin: 24px 0 0;
+    height: 44px;
+}
+
