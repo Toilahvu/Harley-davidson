@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background_hero img {
+  width: 100%;
+  height: 364.79px;
+  display: flex;
+}
+
+.cmp_hero_card {
+  align-items: center;
+}
+.cmp_margin_top {
+  height: 32px;
+}
+
+.hero_card_headline {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0 0 16px;
+  margin-left: 47px;
+}
+
+.hero_card {
+  width: 24px;
+  height: 10px;
+  display: inline-block;
+  border-top: 3px solid #fa6600;
+}
+
+.card_deck {
+  width: 380px;
+  height: auto;
+}
+.card_deck img {
+  width: 350px;
+  height: 334.1px;
+  margin-left: 15px;
+  padding-bottom: 16px;
+}
+
+.card_body{
+    height: 121px;
+}
+
+.hero_card_title a {
+  font-size: 21px;
+  margin-left: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+.hero_card_deccription {
+  margin: 0 15px;
+  margin-right: 30px;
+  padding: 8px 0 0;
+  font-size: 16px;
+}
+
+.card_footer {
+  margin-left: 15px;
+  height: 72px;
+  width: 350px;
+}
+
+.card_footer span {
+  width: 162.39px;
+  height: 48px;
+  color: white;
+  background-color: #fa6600;
+  padding: 12px 32px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.card_deck_all {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row_contentimage{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;	
+    justify-content: center;
+    align-items: center;
+}
+
+.media_card{
+    height: 373.22px;
+    display: flex
+}
+
+.row_contentimage .header{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px
+}
+
+.row_contentimage .description{
+    margin: 16px 0 8px 58px;
+    width: 400px;
+
+    
+}
+
+.media_card img{
+    float: right;
+}
+
