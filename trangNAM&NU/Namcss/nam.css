@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    
+}
+.mot{
+    background-color: black;
+    width: 99vw;
+    height: 400px;
+    margin: 0;
+}
+
+.container-sm{
+   width: 500px;
+   height: 100px;
+   font-size: 45px;
+   float:left;
+   margin-top:120px;
+   margin-left: 100px;
+   color: white;
+}
+.khungbon{
+    height: 500px;
+    width: 97vw;
+}
+
+.khungbon img{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+footer{
+    background-color: black;
+    height: 1000px;
+}
+.khungchu{
+    float: right;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+
+.khungchu button{
+    background-color: orange;
+    text-decoration: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 0px;
+    color: white;
+}
+
+.khunghai{
+    height: 350px;
+    background-color: gainsboro;
+}
+
+.khunghai #danhmuc{
+    padding-top: 45px;
+    display: flex;
+}
+
+.dgke1{
+    display: block;
+    margin-top:20px;
+    height: 30px;
+    width: 490px;
+    border-top: 3px red solid;
+}
+.danhmuctitle{
+
+    height: 40px;
+    padding-left: 40px;
+    padding-right:40px;
+    font-size: 30px;
+}
+#listdo{
+    height:200px;
+}
+.khungdanhsach{
+    display: flex;
+    
+    height: 240px;
+}
+.card-img-top{
+    border-radius: 0px;
+}
+.danhsach{
+    
+    display:flex;
+    height:200px;
+    margin-top:40px;
+    margin-left: 145px;
+}
+.khung{
+    margin-top: 10px;
+    margin-left:20px;
+    width: 10vw;
+    height: 150px;
+}
+.khung img{
+    border-radius: 10px;
+}
+.khung a{
+    text-decoration: none;
+}
+.khung p{
+    text-align: center;
+    padding-top: 10px;
+    color:black;
+}
+.carousel-control-prev{
+    background-color: black;
+    height:70px;
+    width: 30px;
+    margin-top:60px;
+    margin-left:120px;
+}
+
+.carousel-control-next{
+    background-color: black;
+    height:70px;
+    width: 30px;
+    margin-top:60px;
+    margin-right: 90px;
+}
+
+.khungba{
+    height: 100vh;
+   
+    width: 100vw;
+    
+}
+
+.khungba img{
+    border-radius:0px;
+    
+}
+#motachu{
+    margin-top: 450px;
+    margin-left: 130px;
+   
+    height:200px;
+    width: 400px;
+    
+}
+#motachu h5{
+    color: orange;
+    font-weight: bolder;
+}
+
+#motachu p strong{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#motachu p small{
+    font-size:small;
+}
+#motachu button{
+    background-color: orange;
+    border:none;
+    border-radius:0px;
+}
+
+.khung5{
+    height: 1200px;
+}
+
+.khung5 div h2{
+    margin-top:20px;
+    margin-left: 120px;
+}
+.dgke2{
+    width:30px;
+    border-top: 2px red solid;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.khungtieude{
+    display: flex;
+
+}
+.khunghinhanh{
+   
+    width: 80vw;
+    margin-left:160px;
+    height: 489px;
+    display: flex;
+}
+#anhphobien{
+    border-radius:0px;
+    height: 100px;
+    width:100px;
+    margin-left: 10px;
+}
+.khunghinhanh2{
+    position: relative;
+    
+    width: 80vw;
+    margin-left:160px;
+    height: 489px;
+    display: flex;
+}
+#khung1cuaanh{
+    position: absolute;
+    margin-left:30px ;
+}    
+#anhdactrung{
+    width: 500px;
+    height: 400px;
+}
+.khunghinhanh2 #khung2cuaanh{
+    position: absolute;
+    margin-left: 660px;
+}
+.anhkhung6{
+    display: flex;
+    height: 500px;
+    background-color: black;
+}
+.khungchu2{
+    
+    margin-left:50px;   
+    padding-top:100px;
+    color:white;
+}
+.khungchu2 button{
+   background-color: orange;
+    width:200px;
+    border-radius: 0px;
+    text-decoration: none;
+    color:white;
+}
+
+.khung7{
+    display: flex;
+    height: 500px;
+    background-color: whitesmoke;
+  
+}
+.khungchu3{
+ height: 300px;
+ width:   600px;
+
+ margin-left: 70px;
+ margin-top:120px
+}
+.anhkhung7{
+    width: 600px;
+    padding-top:80px;
+    margin-left: 100px;
+    padding-bottom: 80px;
+}
+
+.khungchu3 button{
+    background-color: orange;
+    width:200px;
+    border-radius: 0px;
+    text-decoration: none;
+    color:white;
+}
