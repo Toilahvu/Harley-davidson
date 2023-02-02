@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Logo{
+    width: 7%;
+    height: 7%;
+}
+#Vi{
+    width: 4%;
+    height: 4%;
+}
+#Headd{
+   
+    background-color: black;
+}
+#textt{
+    padding-right: 2%; 
+    text-decoration: none;
+    color: white;
+}
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 1px solid ;
+    background-color: white;
+    color: #0d0c22;
+   }
+   
+   .input::placeholder {
+    color: black;
+   }
+   
+   .input:focus, input:hover {
+    background-color: #fff;
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: black;
+    width: 1rem;
+    height: 1rem;
+   }
+   
+   
+   
+   
+   
+   
+
