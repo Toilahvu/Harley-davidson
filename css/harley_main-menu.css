@@ -149,6 +149,36 @@
 .solid-mega{
     display: none;
 }
+.first-bar{
+    background-color: #000000;
+    height: 50px;
+}
+.first-bar .first-bar-menu{
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-bar .first-bar-menu img{
+    width: 12px;
+    height: 12px;
+}
+.first-bar .first-bar-menu li{
+    list-style: none;
+    font-size: 70%;
+    margin: 0 1vw;
+}
+.first-bar .first-bar-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.first-bar .first-bar-menu li:hover{
+    border-bottom: #ffff;
+    color:#fa6600;
+}
+
 @media screen and (max-width: 970px){
     .menu-but i{
         margin-top: 15px;
@@ -451,7 +481,6 @@ button:hover .button-text {
     display: flex;
     align-items: center;
 }
-
 /*Footer 2 responsive*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 footer{
