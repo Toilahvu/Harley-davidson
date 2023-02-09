@@ -122,3 +122,7 @@
 .media_card img{
     float: right;
 }
+
+.row{
+  display: flex;
+}
