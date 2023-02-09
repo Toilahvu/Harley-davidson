@@ -1,19 +1,9 @@
-/*header*/
-
-
-
-
-
-
-/*header*/
-
-
-/*main*/
 * {
 
     margin: 0;
 
 }
+
 .mot {
 
     background-color: black;
@@ -302,7 +292,6 @@ footer {
     margin-top: -465px;
     float: right;
     width: 60vw;
-    height: 465px;
 }
 
 .khungchu2 button {
@@ -344,10 +333,6 @@ footer {
 }
 
 @media only screen and (max-width: 912px) {
-    header{
-        height: 114px;
-    }
-    
     .mot {
         height: 680px;
 
@@ -363,9 +348,6 @@ footer {
         margin-top: 60px;
     }
 
-    .khunghai{
-        display: none;
-    }
     .khunghai .danhmuctitle {
 
         font-size: larger;
@@ -394,7 +376,9 @@ footer {
         margin-top: 60px;
     }
 
-   
+    .khung {
+        height: px;
+    }
 
     .khungba {
         height: 500px;
@@ -410,7 +394,7 @@ footer {
     }
 
     .khungba img {
-        width: 98vw;
+        width: 90vw;
     }
 
     .khungbon {
@@ -507,48 +491,3 @@ footer {
         float: left;
     }
 }
-/*main*/
-
-/*footer*/
-footer{
-    background:#fff;
-    position: sticky;
-    top:100%;
-    color: #000;
-}
-.margin-ft{
-    padding: 20px 100px ;
-    width: 700px;
-}
-.select-st{
-    width: 80px;
-    height: 40px;
-}
-
-.logo-text{
-    padding: 20px 5vw;
-}
-.footer2{
-    padding-left: 5vw;
-}
-.bar{
-    background-color: #ffff;
-}
-.footer3{
-    padding-left: 3vw;
-}
-.select-st{
-    display: block;
-    width: 100%;
-    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
-    -moz-padding-start: calc(0.75rem - 3px);
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.5;
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #fa6600;
-    border-radius: 5px;
-}
-
-

@@ -330,6 +330,9 @@
     .signin{
         font-size: 90%;
     }
+    footer .container{
+        display: none;
+    }
 }
 /* Shop All Parts */
 button {
@@ -478,5 +481,110 @@ button:hover .button-text {
     display: flex;
     align-items: center;
 }
+/*Footer 2 responsive*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+footer{
+    background-color: #000000;
+    width: auto;
+    height: auto;
+}
+.container1{
+    max-width: 1170px;
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+.row{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li:not(:lat-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#fa6600;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #fff;
+    background-color: #fa6600;
 
-
+}
+footer hr{
+    color: #fff;
+}
+.row p{
+    color: #fff;
+}
+.select-st{
+    display: block;
+    width: 250px;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fa6600;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.container1 .logo-text{
+    padding: 10px 20px;
+}
+.margin-ft{
+    padding: 20px 20px;
+}
+@media screen and (max-width: 970px) {
+    .container1{
+        text-align: center;
+    }
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .select-st{
+        margin: 0 10vw;
+    }
+}
+@media screen and (max-width: 485px) {
+    .footer-col{
+        width: 100%;
+    }
+}
