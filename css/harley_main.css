@@ -56,7 +56,7 @@
     color: #a83003;
 }
 .khung2{
-    height: 829px;
+    height: 828px;
     width: 100vw;
 }
 .khungchu1{
@@ -86,7 +86,6 @@
     color:white;
     background-color: #000;
 }
-
 
 .khung3{
     
@@ -118,7 +117,6 @@
 .muasam{
     float:left;
     height: 600px;
-    border: 2px solid ;
     width: 99vw;
 }
 .muasamnam{
@@ -175,7 +173,7 @@
 
 
 .khung4{
-    height: 1000px;
+    height: 950px;
     width: 99vw;
     background-color: black;
 }
@@ -199,10 +197,14 @@
     text-decoration: none;
     color:white; 
 }
+.anhluot button:hover{
+      color:#fa6600 ;
+}
 .anhluot button:hover #muiten{
     margin-left: 10px;
     transition: all 1s;
-    color:white;
+    color:#fa6600 ;
+    
 }
 .carousel-control-prev-icon{
     margin-top: 250px;
@@ -286,7 +288,7 @@
 .khung6responsive{display:none;}
 @media only screen and (max-width: 912px){
     .khung2{
-        height: 500px;
+        height: 490px;
     }
     #khungchu1id .card-img-overlay{
     
@@ -402,4 +404,5 @@
         margin-left: 10px;
         transition: all 1s;
         color:white;
+    }
 }

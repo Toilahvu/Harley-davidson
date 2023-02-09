@@ -33,10 +33,6 @@
     margin-left: 100px;
 }
 
-footer {
-    background-color: black;
-    height: 1000px;
-}
 
 .khungchu {
     float: right;
@@ -91,7 +87,7 @@ footer {
 }
 
 .card-img-top {
-    border-radius: 0px;
+    border-radius: none;
 }
 
 .danhsach {
@@ -332,6 +328,8 @@ footer {
     color: white;
 }
 
+
+
 @media only screen and (max-width: 912px) {
     .mot {
         height: 680px;
@@ -348,38 +346,11 @@ footer {
         margin-top: 60px;
     }
 
-    .khunghai .danhmuctitle {
-
-        font-size: larger;
-        width: 500px;
-        font-weight: bolder;
-        text-align: center;
+    .khunghai  {
+        display: none;
+        
 
     }
-
-
-    .danhsach {
-
-        margin-left: 0px;
-        width: 80vw;
-        margin-top: 50px;
-    }
-
-    .carousel-control-prev {
-
-        margin-left: -30px;
-        margin-top: 60px;
-    }
-
-    .carousel-control-next {
-        margin-right: -20px;
-        margin-top: 60px;
-    }
-
-    .khung {
-        height: px;
-    }
-
     .khungba {
         height: 500px;
         width: 98vw;
@@ -389,12 +360,12 @@ footer {
 
     #motachu {
 
-        margin-top: 200px;
+        margin-top: 180px;
         margin-left: 100px;
     }
 
     .khungba img {
-        width: 90vw;
+        width: 100vw;
     }
 
     .khungbon {
