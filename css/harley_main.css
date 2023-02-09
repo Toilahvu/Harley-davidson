@@ -87,7 +87,6 @@
     background-color: #000;
 }
 
-
 .khung3{
     
     height: 800px;
@@ -405,4 +404,5 @@
         margin-left: 10px;
         transition: all 1s;
         color:white;
+    }
 }
