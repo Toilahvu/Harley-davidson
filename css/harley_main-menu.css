@@ -547,7 +547,7 @@ footer hr{
     color: #fff;
 }
 .row p{
-    color: #ffffff;
+    color: #fff;
 }
 .select-st{
     display: block;
@@ -565,7 +565,10 @@ footer hr{
 }
 .container1 .logo-text{
     padding: 10px 20px;
-}   
+}
+.margin-ft{
+    padding: 20px 20px;
+}
 @media screen and (max-width: 970px) {
     .container1{
         text-align: center;
