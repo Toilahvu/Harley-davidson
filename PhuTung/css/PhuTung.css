@@ -9,7 +9,7 @@
 }
 
 .khung1 img {
-    opacity: 0.5;
+    filter:brightness(0.5);
     min-width:912px;
 }
 
@@ -45,11 +45,10 @@
 }
 
 #motachu {
-    margin-top: 450px;
-    margin-left: 1000px;
+    margin-top: 400px;
+    margin-left:65vw;
     height: 200px;
     width: 400px;
-
 }
 
 #motachu h5 {
@@ -113,11 +112,12 @@
     padding-top: 50px;
     margin-left: 140px;
 }
-
+.khung4 .card {
+    width: 35vw;
+}
 .card-body1 {
-
     background-color: black;
-    height: 200px;
+    height: 250px;
     color: whitesmoke;
 }
 
@@ -224,7 +224,7 @@
     height: 600px;
     float: right;
     margin-top: 20px;
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .phutung img {
@@ -553,10 +553,10 @@
     }
     .khung7{height: 3000px;}
     .khung7 .khungtieude{
-       margin-left: 60px;
+       margin-left: -40px;
     }
     .khung7 .khunghinhanh{
-        margin-left: 40px;
+        margin-left: -100px;
     }
     .khung7 .khunghinhanh img{
         width: 86vw;
@@ -593,6 +593,14 @@
     }
 
    
+}
+.khung7 .card{
+    border: none;
+    margin-left: 10px;
+
+}
+.khung7 .khunghinhanh{
+    margin-left: 9.2vw;
 }
 
 /*footer*/
