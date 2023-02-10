@@ -5,7 +5,7 @@
 .khung1 {
     height: 420px;
    
-    color: white
+    
 }
 
 .khung1 img {
@@ -17,7 +17,7 @@
 
     width: 40vw;
     height: 100px;
-    color: black;
+    color: white;
     text-align: center;
     margin-left: 400px;
     margin-top: 80px;
@@ -26,7 +26,7 @@
 .khung1 p {
     width: 30vw;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-left: 470px;
     margin-top: 10px;
 }
@@ -320,7 +320,7 @@
 .dgke2 {
     width: 30px;
     border-top: 2px orange solid;
-    margin-top: 40px;
+    margin-top: 22px;
     margin-left: 10px;
 }
 
@@ -389,7 +389,7 @@
     .khung1 p {
         width: 50vw;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 253, 253);
         margin-left: 200px;
         margin-top: 10px;
     }
@@ -408,42 +408,12 @@
     }
     .khung1 img{
         width: 90vw;
-        height: 400px;
+        height: 420px;
     }
     .khunghai{
-        height: 500px;
+        display: none;
     }
-    .khunghai .danhmuctitle{
-        width: 80vw;
-        margin-top: -5px;
-    }
-    .khunghai .khungdanhsach .danhsach .khung {
-
-        width: 6vw;
-        margin-top: 00px
-    }
-    .khunghai .khungdanhsach .danhsach .khung p {
-        font-size: small;
-    }
-    .khunghai .carousel-control-next {
-        margin-top: 50px;
-        
-    }
-    .khunghai .khungdanhsach{
-       
-        margin-left: 0px;
-    }
-    .khunghai .khungdanhsach .danhsach{
-       
-        margin-left: 10px;
-    }
-    .khunghai .carousel-control-prev {
-        margin-top: 50px;
-        margin-left: -30px;
-    }
-    .khunghai .carousel-control-next{
-        margin-right: -30px;
-    }
+   
     .khung3{
         height: 800px;
         background-color: black;
@@ -542,11 +512,12 @@
     }
     .khung7{height: 3000px;}
     .khung7 .khungtieude{
-       margin-left: -40px;
+       margin-left: 60px;
     }
     .khung7 .khunghinhanh{
-        margin-left: -100px;
+        margin-left: 40px;
     }
+    
     .khung7 .khunghinhanh img{
         width: 86vw;
     }

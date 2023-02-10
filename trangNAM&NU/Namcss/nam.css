@@ -132,11 +132,11 @@
     height: 70px;
     width: 30px;
     margin-top: 60px;
-    margin-right: 90px;
+    margin-right: 70px;
 }
 
 .khungba {
-    height: 100vh;
+    
 
     width: 100vw;
 
@@ -272,7 +272,7 @@
 }
 
 .anhkhung6 {
-    height: 465px;
+    height: 477.5px;
     background-color: black;
 }
 
@@ -438,7 +438,7 @@
     }
 
     .anhkhung6 img {
-        margin-top: 0px;
+        margin-top: 40px;
         width: 98vw;
     }
 
